@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+.input {
+    width: 17rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: .4rem;
+    border: none;
+    padding: .3rem;
+    font-size: 1.5rem;
+    text-align: end;
+    outline: none;
+    cursor: auto;
+}
+
+.input-contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonCE {
+    margin-top: .4rem;
+    font-weight: bolder;
+    width: 17rem;
+    padding: .4rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+}
+
+.buttons {
+    outline: none;
+    width: 58px;
+    padding: 1rem;
+    border-radius: 40px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.41);
+}
+
+.buttons:hover {
+    width: 57px;
+    transition: .5s;
+    /* background-color: transparent; */
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+#buttonCE:hover {
+    transition: .5s;
+    /* background: rgb(196, 196, 196); */
+    background-color: rgb(44, 44, 44);
+    font-weight: bolder;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(187, 187, 187, 0.766);
+    font-size: 1rem;
+    text-align: start;
+}
